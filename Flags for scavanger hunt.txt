@@ -1,0 +1,21 @@
+flag_1:$1$WYmnR327$5C1yY4flBxB1cLjkc92Tq.
+flag_2:$1$PEDICYq8$6/U/a5Ykxw1OP0.eSrMZO0
+flag_3:$1$Y9tp8XTi$m6pAR1bQ36oAh.At4G5s3.
+flag_4:$1$lGQ7QprJ$m4eE.b8jhvsp8CNbuIF5U0
+flag_5:$1$zuzYyKCN$secHwYBXIELGqOv8rWzG00
+flag_6:$1$Qbq.XLLp$oj.BXuxR2q99bJwNEFhSH1
+flag_7:$1$zmr05X2t$QfOdeJVDpph5pBPpVL6oy0
+
+
+Press 'q' or Ctrl-C to abort, almost any other key for status
+have             (flag_3)
+Congratulations  (flag_1)
+this             (flag_5)
+completed        (flag_4)
+4g 0:00:00:00 100% 23.52g/s 4694p/s 15729c/s 15729C/s Bearfoot..completed
+Use the "--show" option to display all of the cracked passwords reliably
+Session completed
+
+
+cat mitnik.log | awk '{print $1}' | sort -u | uniq | wc -l
+102
